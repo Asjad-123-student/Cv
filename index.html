@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <style>
-   
+    @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
 
 * {
   margin: 0;
@@ -49,17 +49,31 @@ body {
 }
 
 .resume .resume_left .resume_profile {
-  width: 100%;
-  height: 280px;
+  width: 60%;
+  height: 150px;
 }
 
 .resume .resume_left .resume_profile img {
   width: 100%;
   height: 100%;
 }
+.resume .resume_left .resume_profile {
+  width: 60%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Optional: Keeps the image in proportion while filling the space */
+}
+
 
 .resume .resume_left .resume_content {
-  padding: 0 25px;
+  padding: 0 50px;
 }
 
 .resume .title {
@@ -216,27 +230,10 @@ body {
   justify-content: space-between;
 }
 
-.resume .resume_right .resume_hobby ul li {
-  width: 80px;
-  height: 80px;
-  border: 2px solid #0bb5f4;
-  border-radius: 50%;
-  position: relative;
-  color: #0bb5f4;
-}
+
 
 .resume .resume_right .resume_hobby ul li i {
   font-size: 30px;
-}
-
-.resume .resume_right .resume_hobby ul li:before {
-  content: "";
-  position: absolute;
-  top: 40px;
-  right: -52px;
-  width: 50px;
-  height: 2px;
-  background: #0bb5f4;
 }
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
@@ -250,7 +247,7 @@ body {
     <div class="resume">
        <div class="resume_left">
          <div class="resume_profile">
-           
+           <img src="Profile_pic.jpg" alt="profile_pic">
          </div>
          <div class="resume_content">
            <div class="resume_item resume_info">
@@ -319,26 +316,26 @@ body {
                 <ul>
                     <li>
                       <div class="">
-                       <img src="img/cv/location.png" alt="">
+                       <img src="img/cv/location.png" alt="📍 ">
                       </div>
                       <div class="data">
-                        <p>Address: H#599-D, Khi</p>
+                        <p>Address: H#212-E, Khi</p>
                       </div>
                     </li>
                     <li>
                       <div class="">
-                      <img src="img/cv/phone-call.png" alt="">
+                      <img src="img/cv/phone-call.png" alt="📞  ">
                       </div>
                       <div class="data">
-                        <p>+923331264018</p>
+                        <p>+92347233441</p>
                       </div>
                     </li>
                     <li>
                       <div class="">
-                        <img src="img/cv/email.png" alt="">
+                        <img src="img/cv/email.png" alt="📧 ">
                       </div>
                       <div class="data">
-                        <p>asjadkiller123@gmail.com</p>
+                        <p>m.as**@gmail.com</p>
                       </div>
                     </li>
                     
@@ -347,12 +344,7 @@ body {
              
            </div>
            <div class="resume_item resume_social">
-            <div class="title">
-               <p class="semi-bold" style="color: #0bb5f4;" >References</p>
-              <br>
-       <p>Syed Moiz Hussain</p>
-       <p style="font-size: smaller;">Head Placement - Industry Liason</p>
-            </div>
+            
             
           </div>
          </div>
@@ -390,14 +382,14 @@ body {
                     <div class="date">2019 - 2021</div> 
                     <div class="info">
                          <p class="semi-bold">Matriculation</p> 
-                      <p>Board of Secondary Education Sindh</p>
+                      <p>Board of Secondary Education Karachi</p>
                     </div>
                 </li>
                 <li>
                   <div class="date">2021 - 2023</div>
                   <div class="info">
                          <p class="semi-bold">Intermediate</p> 
-                      <p>Board of Intermediate Education Sindh</p>
+                      <p>Board of Intermediate Education Karachi</p>
                     </div>
                 </li>
                 <li>
@@ -435,8 +427,10 @@ body {
           <div class="title">
                <p class="bold">Hobby</p>
              </div>
-           <ul><p>My hobby is to watch movies and challenge my new goals.</p>
-             </li>
+           <ul>
+             <li>Football ⚽</li>
+             <li>Cricket 🏏</li>
+             <li>Gaming 🎮</li>
           </ul>
         </div>
       </div>
